@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	display: block;
+	width: 100%;
+}
+
+.board {
+    width: 80%;
+	margin: auto;
+}
+
+@media screen and (min-width: 30em) {
+    .board {
+        width: 50%;
+		margin: auto;
+    }
+
+}
+@media screen and (min-width: 30em) and (max-width: 60em) {
+    .board {
+        width: 50%;
+		margin: auto;
+    }
+}
+@media screen and (min-width: 60em) {
+    .board {
+        width: 45%;
+		margin: auto;
+    }
+}
+
+.info {
+    width: 400px;
+    display: none !important;
+    margin: auto;
+}
+
+.move-history {
+    max-height: 100px;
+    display: none;
+    overflow-y: scroll;
+}
